@@ -15,4 +15,6 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pwd
+        ls -lrth
         pip install -r ./requirements.txt
